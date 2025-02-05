@@ -1,0 +1,8 @@
+<div class="timer">
+  <h1>Pomodoro</h1>
+  <h1 class="reloj">{{ formatTime(timeLeft$ | async) }}</h1>
+  <div class="options" *ngIf="!timerService.isTimerRunning">
+    <button (click)="shortSesion()">Sesion corta</button>
+    <button (click)="longSesion()">Sesion larga</button>
+  </div>
+</div>

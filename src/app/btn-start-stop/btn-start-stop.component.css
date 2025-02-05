@@ -1,0 +1,25 @@
+.btnStartStop {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  background-color: transparent;
+  gap: 4vh;
+}
+
+button {
+  width: 18vh;
+  height: 6vh;
+  font-size: 2vh;
+  background-color: #444444b5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444444;
+  transition: 0.5s;
+}

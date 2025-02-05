@@ -1,0 +1,6 @@
+<div class="btnStartStop">
+  <button (click)="toggleTimer()">
+    {{ timerService.isTimerRunning ? "Pausar" : "Reanudar" }}
+  </button>
+  <button (click)="reset()">Reiniciar</button>
+</div>
