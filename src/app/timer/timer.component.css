@@ -1,7 +1,8 @@
 .timer {
   background-color: rgba(0, 0, 0, 0.247);
-  border-radius: 2vh;
-  margin: 3vh;
+  border-radius: 8px;
+  margin: 15px;
+  height: 160px;
 }
 .reloj {
   justify-self: center;
@@ -13,20 +14,21 @@ h1 {
 
 .options {
   justify-self: center;
-  gap: 10vh;
+  gap: 10px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
-  width: 18vh;
-  height: 6vh;
-  font-size: 2hv;
+  width: 130px;
+  height: 40px;
+  font-size: 2vh;
+  background-color: #444444b5;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: black;
-  opacity: 0.5;
 }
 
 button:hover {
