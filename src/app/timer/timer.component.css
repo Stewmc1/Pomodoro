@@ -34,3 +34,19 @@ button {
 button:hover {
   background-color: #444444b5;
 }
+
+@media (max-width: 900px) {
+  button {
+    width: 90px;
+    height: 35px;
+    font-size: 1.8vh;
+  }
+}
+
+@media (max-width: 600px) {
+  button {
+    width: 70px;
+    height: 30px;
+    font-size: 1.5vh;
+  }
+}
