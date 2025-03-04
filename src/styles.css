@@ -1,5 +1,5 @@
 body {
   overflow: hidden;
-  background-image: url(./app/assets/pantalla.jpg);
+  background-image: url(assets/pantalla.jpg);
   background-size: cover;
 }
