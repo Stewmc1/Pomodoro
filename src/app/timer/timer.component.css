@@ -37,7 +37,7 @@ button:hover {
 
 @media (max-width: 900px) {
   button {
-    width: 110px;
+    width: 120px;
     height: 35px;
     font-size: 1.8vh;
   }
@@ -45,7 +45,7 @@ button:hover {
 
 @media (max-width: 600px) {
   button {
-    width: 90px;
+    width: 100px;
     height: 30px;
     font-size: 1.5vh;
   }
